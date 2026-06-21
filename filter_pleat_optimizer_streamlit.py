@@ -1,4 +1,6 @@
 import streamlit as st
 
-st.title("HELLO WORLD")
-st.write("If you see this, Streamlit is working.")
+st.title("Filter Pleat Optimizer")
+
+if st.button("Calculate"):
+    st.success("Button works")
